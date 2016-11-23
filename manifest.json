@@ -1,0 +1,17 @@
+{
+  "name": "Facebook Filter",
+  "manifest_version" : 2,
+  "version": "0.1",
+  "description": "When clicked will filter posts from your Facebook news feed based on keywords.",
+  "icons": { "128": "off.png" },
+  "background": {
+    "scripts": ["run.js"]
+  },
+  "permissions": ["http://*.facebook.com/", "https://*.facebook.com/"],
+  "browser_action": {
+    "default_title": "Facebook Filter",
+    "default_icon": "off.png",
+    "default_popup": "popup.html"
+  },
+  "author": "Jeff Lombard"
+}
